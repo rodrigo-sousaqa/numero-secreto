@@ -1,4 +1,4 @@
-alert('Boas Vindas ao jogo do número Secreto');
+alert(' teste Boas Vindas ao jogo do número Secreto');
 let numeroMaximo = 5000;
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 
@@ -16,7 +16,7 @@ while (chute != numeroSecreto ){
         break;
     } else {
         if (chute > numeroSecreto) {
-            alert(`o número secreto é menor que ${chute}`);
+            alert(`teste o número secreto é menor que ${chute}`);
     }     else {
             alert(`o número secreto é maior${chute}`);
     }
