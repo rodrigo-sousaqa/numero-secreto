@@ -1,4 +1,4 @@
-alert('Boas Vindas ao jogo do número Secreto');
+alert('Boas Vindas ao jogo do número Secreto!');
 let numeroMaximo = 5000;
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 
